@@ -1,0 +1,47 @@
+[
+    {
+        "id": "520db48cb1fb88ec",
+        "type": "inject",
+        "z": "29c905dccb9a3bd2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 120,
+        "wires": [
+            [
+                "f3c89c89128286de"
+            ]
+        ]
+    },
+    {
+        "id": "f3c89c89128286de",
+        "type": "debug",
+        "z": "29c905dccb9a3bd2",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 120,
+        "wires": []
+    }
+]
